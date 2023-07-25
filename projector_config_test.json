@@ -11,8 +11,8 @@
       "sprite": {
         "imagePath": "https://raw.githubusercontent.com/tdrenik/fashion_clip/main/sprite(2).png",
         "singleImageDim": [
-          32,
-          32
+          64,
+          64
         ]
       }
     }
