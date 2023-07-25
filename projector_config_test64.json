@@ -3,11 +3,11 @@
     {
       "tensorName": "My tensor",
       "tensorShape": [
-        1000,
+        1001,
         512
       ],
-      "tensorPath": "https://raw.githubusercontent.com/tdrenik/fashion_clip/main/all_embeddings_1k.tsv",
-      "metadataPath": "https://raw.githubusercontent.com/tdrenik/fashion_clip/main/all_metadata_1k.tsv",
+      "tensorPath": "https://raw.githubusercontent.com/tdrenik/fashion_clip/main/all_embeddings_1k(1).tsv",
+      "metadataPath": "https://raw.githubusercontent.com/tdrenik/fashion_clip/main/all_metadata_1k(1).tsv",
       "sprite": {
         "imagePath": "https://raw.githubusercontent.com/tdrenik/fashion_clip/main/sprite(2).png",
         "singleImageDim": [
