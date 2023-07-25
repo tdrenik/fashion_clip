@@ -4,10 +4,10 @@
       "tensorName": "My tensor",
       "tensorShape": [
         1000,
-        512
+        50
       ],
-      "tensorPath": "https://github.com/tdrenik/fashion_clip/blob/main/all_embeddings_1k.tsv",
-      "metadataPath": "https://github.com/tdrenik/fashion_clip/blob/main/all_metadata_1k.tsv",
+      "tensorPath": "https://raw.githubusercontent.com/tdrenik/fashion_clip/main/all_embeddings_1k.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/tdrenik/fashion_clip/main/all_metadata_1k.tsv",
       "sprite": {
         "imagePath": "https://github.com/tdrenik/fashion_clip/blob/main/sprite.png",
         "singleImageDim": [
