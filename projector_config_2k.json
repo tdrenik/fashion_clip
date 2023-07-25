@@ -1,0 +1,20 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "My tensor",
+      "tensorShape": [
+        1004,
+        512
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/tdrenik/fashion_clip/main/all_embeddings_2k.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/tdrenik/fashion_clip/main/all_metadata_2k.tsv",
+      "sprite": {
+        "imagePath": "https://raw.githubusercontent.com/tdrenik/fashion_clip/main/sprite_2k.png",
+        "singleImageDim": [
+          64,
+          64
+        ]
+      }
+    }
+  ]
+}
