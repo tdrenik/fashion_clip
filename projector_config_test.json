@@ -4,7 +4,7 @@
       "tensorName": "My tensor",
       "tensorShape": [
         1000,
-        50
+        512
       ],
       "tensorPath": "https://github.com/tdrenik/fashion_clip/blob/main/all_embeddings_1k.tsv",
       "metadataPath": "https://github.com/tdrenik/fashion_clip/blob/main/all_metadata_1k.tsv",
