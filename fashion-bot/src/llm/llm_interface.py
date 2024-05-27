@@ -39,10 +39,10 @@ class LLM:
                  api_base: str=None
                  ):
         self.model_name = model_name
-        api_key = os.environ['OPENAI_API_KEY']
+        api_key = st.secrets["OPENAI_API_KEY"]
         if not api_key:
             try:
-                self._api_key = os.environ['OPENAI_API_KEY']
+                self._api_key = st.secrets["OPENAI_API_KEY"]
             except KeyError:
                 raise ValueError('Default api_key expects OPENAI_API_KEY environment variable. Check that you have this variable or pass in another api_key.')
         else:

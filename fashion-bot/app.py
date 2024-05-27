@@ -16,8 +16,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Initialize the client and LLM instances
-api_key = os.environ['WEAVIATE_API_KEY']
-url = os.environ['WEAVIATE_URL_KEY']
+api_key = st.secrets["WEAVIATE_API_KEY"]
+url = st.secrets["WEAVIATE_URL_KEY"]
 
 client = WeaviateWCS(endpoint=url, api_key=api_key)
 collection_name = 'FashionCLIP_sample1MM'
