@@ -12,8 +12,8 @@ from transformers import AutoModel, AutoProcessor, AutoTokenizer
 from src.llm.llm_interface import LLM
 
 # Initialize the client and LLM instances
-api_key = '76RHexcyjEbb1G4pCHxDSAabTM93ZEQoB6BN'
-url = 'https://vectorsearch-application-demo-71i3tzyf.weaviate.network'
+api_key = ''
+url = ''
 
 client = WeaviateWCS(endpoint=url, api_key=api_key)
 collection_name = 'FashionCLIP_sample1MM'

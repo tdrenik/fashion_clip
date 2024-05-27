@@ -34,7 +34,7 @@ class LLM:
                  api_base: str=None
                  ):
         self.model_name = model_name
-        api_key = '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'
+        api_key = ''
         if not api_key:
             try:
                 self._api_key = os.environ['OPENAI_API_KEY']
